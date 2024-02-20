@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    /* border-bottom: 2px solid rgb(0, 255, 174); */
+    overflow: hidden;
+    padding-bottom: 30px;
+    box-shadow: 0 0.1px 5px rgb(0, 255, 174);
+}
+aside, .aside{
+    float: left;
+    width: 50%;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+aside img{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 400px;
+    margin: 80px 0 0 0;
+    object-fit: cover;
+}
+aside h1{
+    text-align: left;
+    padding-left: 40px;
+}
+aside p{
+    margin: 10px 30px;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+/* third half */
+section .aside{
+    text-align: left;
+    padding-left: 40px;
+    line-height: 0.21;
+}
+
+
+
+section>section {
+    overflow: hidden;
+    padding-bottom: 30px;
+    box-shadow: 0 0.1px 5px rgb(0, 255, 174);
+}
+.sec1{
+    float: left;
+    width: 50%;
+    /* border: 2px solid red; */
+    padding-left: 40px;
+    padding: 10px 40px;
+}
+.sec2{
+    float: right;
+    /* border: 2px solid red; */
+    padding-left: 40px;
+    padding: 10px 40px;
+    margin-right: 150px;
+}
+.sec1 p ,.sec2 p{
+    line-height: 0.9;
+}
+.section h2{
+    text-align: center;
+    margin: 20px 0;
+}
+.section{
+    padding: 10px 40px;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    overflow: hidden;
+}
+footer .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 40px;
+    text-align: center;
+}
+.row i.fa-brands{
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+.row p{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(0, 255, 174);
+    }
+footer .col h2:hover{
+    color: rgb(0, 255, 174);
+}
+footer form{
+    display: grid;
+    width: 50%;
+    margin: 4px auto;
+}
+footer input, button{
+    margin-bottom: 6px;
+    padding: 6px 8px;
+    border-radius: 6px;
+}
+footer button{
+    color: darkcyan;
+}
+.footer{
+    background-color: black;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+@media (max-width:576px) {
+    main{
+        display: flex;
+        flex-direction:column;
+    }
+    aside, .aside,.sec1{
+        width: 100%;
+    }
+    aside img{
+        margin: 0;
+    }
+    footer .row{
+       
+        flex-direction: column;
+    }
+}
