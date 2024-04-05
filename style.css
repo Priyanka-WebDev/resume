@@ -35,6 +35,8 @@ aside p{
     margin: 10px 30px;
     padding: 10px;
     text-align: justify;
+    background: #f0f0;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* education edited */
