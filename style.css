@@ -109,9 +109,10 @@ section>section {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    margin: 40px;
 }
 .sec2{
-    height: 200px;
+    height: 250px;
 }
 .sec1, .sec2{
     /* border: 2px solid red; */
@@ -246,6 +247,9 @@ footer button{
     }
     .sec1{
         margin: 0px 10px;
+    }
+    .sec2{
+        height: auto;
     }
     #projects{
         display: flex;
